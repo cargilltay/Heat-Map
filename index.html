@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Heatmaps</title>
+	<link rel=StyleSheet href="custom.css" type="text/css">
+  </head>
+
+  <body>
+    <div id="floating-panel">
+      <button id="toggle">Toggle Heatmap</button>
+      <button id="gradient">Change gradient</button>
+      <button id="radius">Change radius</button>
+      <button id="opacity">Change opacity</button>
+      <input id="address-bar" type="text" placeholder="Enter address"></input>
+      <input id="weight" type="number" min="0" max="100" placeholder="Enter behavior level"></input>
+      <button id="submit" type="text">Submit</button>
+    </div>
+    <div id="map"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=visualization"></script>
+    <script type="text/javascript" src="custom.js"></script>
+  </body>
+</html>
